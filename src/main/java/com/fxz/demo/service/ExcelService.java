@@ -10,14 +10,17 @@ import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StopWatch;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 
 
 @Slf4j
@@ -32,9 +35,13 @@ public class ExcelService {
 
     public void exportExcel(HttpServletResponse response) throws IOException {
         String excelName = ExcelUtil.getExcelName("students");
+        StopWatch watch = new StopWatch("export excel");
+        watch.start(String.format(Locale.ROOT, "export excel [%s]", excelName));
         try (SXSSFWorkbook workbook = ExcelUtil.getWorkBook()){
             ExcelUtil.writeExcel(workbook, excelName, response);
         }
+        watch.stop();
+        log.info(watch.prettyPrint());
     }
 
     public void importExcel(MultipartFile file) throws Exception {
