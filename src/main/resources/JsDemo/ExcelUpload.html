@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>excel上传</title>
+</head>
+<body>
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" id="file">
+    <input type="button" value="Upload" id="upload"/>
+</form>
+
+<script src="jquery.min.js"></script>
+<script>
+    $(function () {
+        $('#upload').click(function() {
+            $.ajax({
+                url: "http://localhost:8080/fxz/excel/upload",
+                type: "post",
+                data: new FormData($('#uploadForm')[0]),
+                cache: false,
+                processData:false,
+                contentType:false,
+                success: function(res) {
+                    console.log(res)
+                    //stringify()用于从一个对象解析出字符串
+                    const jsonData = JSON.stringify(res);
+                    //JSON.parse用于从一个字符串中解析出json对象
+                    const jsonObject = JSON.parse(jsonData);
+                    $.each(jsonObject, function(i,item){
+                        if (i === "resultMessage") {
+                            alert(item);
+                        }
+                    });
+                },
+                error: function(err) {
+                    console.log(err)
+                    //stringify()用于从一个对象解析出字符串
+                    const jsonData = JSON.stringify(err);
+                    //JSON.parse用于从一个字符串中解析出json对象
+                    const jsonObject = JSON.parse(jsonData);
+                    $.each(jsonObject, function(i,item){
+                        if (Object.is(i,"resultMessage")) {
+                            alert(item);
+                        }
+                    });
+                }
+            })
+        })
+    })
+</script>
+</body>
+</html>

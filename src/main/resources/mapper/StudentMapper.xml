@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fxz.demo.dao.StudentMapper">
+    <resultMap id="studentMap" type="com.fxz.demo.model.Student">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="age" column="age"/>
+        <result property="tSex" column="t_sex"/>
+    </resultMap>
+    
+    <insert id="insertStudent" parameterType="Student">
+        insert into t_student(`name`, age, t_sex) value (#{name}, #{age}, #{tSex})
+    </insert>
+
+    <insert id="batchInsertStudent" parameterType="Student">
+        insert into t_student(`name`, age, t_sex) value
+        <foreach collection="studentList" item="student" separator=",">
+            (
+                #{student.name}, #{student.age}, #{student.tSex}
+            )
+         </foreach>
+    </insert>
+
+    <select id="queryStudent" resultType="Student">
+        select id,`name`,age,t_sex from t_student where id = #{id}
+    </select>
+</mapper>

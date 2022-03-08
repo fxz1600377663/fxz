@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27ceac67-63e3-4fd5-846d-dc2cf4d20f9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\LocalWareHouse" />
+        <option name="mavenHome" value="C:\Users\18672\Desktop\apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\Users\18672\Desktop\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22il82WvoljRHPeSkVzgmWsX00u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fxz\Desktop\WorkSpace\rocketMqTest\src\test\java\com\fxz\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="BankRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fxz.demo.BankRunnable" />
+      <module name="fxzTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fxz.demo.util.ExcelUtil" />
+      <module name="fxzTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxz.demo.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fxz.demo.ThreadExecutorTest" />
+      <module name="fxzTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fxz.demo.ThreadLocalTest" />
+      <module name="fxzTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fxzTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fxz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fxz.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.fxz.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fxzTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fxz.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExcelUtil" />
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+        <item itemvalue="Application.ThreadExecutorTest" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.BankRunnable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27ceac67-63e3-4fd5-846d-dc2cf4d20f9d" name="Default Changelist" comment="" />
+      <created>1640328126373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640328126373</updated>
+      <workItem from="1640328128765" duration="1886000" />
+      <workItem from="1640585955873" duration="1815000" />
+      <workItem from="1640597950248" duration="599000" />
+      <workItem from="1645345392815" duration="20000" />
+      <workItem from="1645764217239" duration="564000" />
+      <workItem from="1645778536317" duration="555000" />
+      <workItem from="1645779104452" duration="1385000" />
+      <workItem from="1645853180926" duration="3890000" />
+      <workItem from="1645868967825" duration="221000" />
+      <workItem from="1645869215881" duration="37000" />
+      <workItem from="1645869267762" duration="1065000" />
+      <workItem from="1645870670531" duration="6658000" />
+      <workItem from="1645946393954" duration="9680000" />
+      <workItem from="1645963735733" duration="2874000" />
+      <workItem from="1646010724650" duration="1387000" />
+      <workItem from="1646104699947" duration="753000" />
+      <workItem from="1646210207415" duration="1417000" />
+      <workItem from="1646297045206" duration="299000" />
+      <workItem from="1646297380679" duration="750000" />
+      <workItem from="1646444061595" duration="17259000" />
+      <workItem from="1646476724365" duration="1153000" />
+      <workItem from="1646477900105" duration="9033000" />
+      <workItem from="1646534064858" duration="28083000" />
+      <workItem from="1646583358733" duration="59000" />
+      <workItem from="1646615811030" duration="22733000" />
+      <workItem from="1646703418032" duration="28317000" />
+      <workItem from="1646740206740" duration="3234000" />
+      <workItem from="1646743468021" duration="206000" />
+      <workItem from="1646743688637" duration="1084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/18672/Desktop/WorkSpace/fxzTest" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="339" key="#Notifications" timestamp="1646477945966">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="695" y="339" key="#Notifications/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646477945966" />
+    <state x="440" y="90" key="#Project_Structure" timestamp="1645778554344">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1645778554344" />
+    <state x="414" y="171" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646743521519">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="414" y="171" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743521519" />
+    <state x="765" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1646625466557">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="765" y="217" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646625466557" />
+    <state width="965" height="466" key="DebuggerActiveHint" timestamp="1646741022560">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="965" height="466" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646741022560" />
+    <state x="92" y="92" width="1736" height="848" key="DiffContextDialog" timestamp="1645867307506">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="92" y="92" width="1736" height="848" key="DiffContextDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1645867307506" />
+    <state x="1239" y="317" key="FileChooserDialogImpl" timestamp="1646744775415">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1239" y="317" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646744775415" />
+    <state x="740" y="270" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1646214007682" />
+    <state x="832" y="413" key="Github.ShareDialog" timestamp="1646742340844">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="832" y="413" key="Github.ShareDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646742340844" />
+    <state width="1877" height="59" key="GridCell.Tab.0.bottom" timestamp="1646743463166">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463166" />
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1645881651900" />
+    <state width="1877" height="59" key="GridCell.Tab.0.center" timestamp="1646743463166">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="59" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463166" />
+    <state width="1877" height="72" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1645881651900" />
+    <state width="1877" height="59" key="GridCell.Tab.0.left" timestamp="1646743463166">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="59" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463166" />
+    <state width="1877" height="72" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1645881651900" />
+    <state width="1877" height="59" key="GridCell.Tab.0.right" timestamp="1646743463166">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="59" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463166" />
+    <state width="1877" height="72" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1645881651900" />
+    <state width="1877" height="91" key="GridCell.Tab.1.bottom" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.1.center" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.1.left" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.1.right" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.2.bottom" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.2.bottom/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.2.center" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.2.center/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.2.left" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.2.left/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state width="1877" height="91" key="GridCell.Tab.2.right" timestamp="1646743463163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="91" key="GridCell.Tab.2.right/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743463163" />
+    <state x="490" y="171" key="Maven.ArtifactSearchDialog" timestamp="1646473364336">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="490" y="171" key="Maven.ArtifactSearchDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646473364336" />
+    <state x="600" y="219" key="NewModule_or_Project.wizard" timestamp="1646743531347">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="600" y="219" key="NewModule_or_Project.wizard/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743531347" />
+    <state x="713" y="217" key="RollbackChangesDialog" timestamp="1646742977802">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="713" y="217" key="RollbackChangesDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646742977802" />
+    <state x="419" y="162" key="SettingsEditor" timestamp="1646744729069">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="419" y="162" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646744729069" />
+    <state x="461" y="160" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1645778775189" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1646743612869">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743612869" />
+    <state x="502" y="245" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1646571703986">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="502" y="245" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646571703986" />
+    <state x="662" y="219" width="596" height="594" key="find.popup" timestamp="1646708749474">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="662" y="219" width="596" height="594" key="find.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646708749474" />
+    <state x="747" y="415" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1646743604675">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="747" y="415" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646743604675" />
+    <state x="616" y="238" key="run.anything.popup" timestamp="1646573393101">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" key="run.anything.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646573393101" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1646733652651">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1646733652651" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fxzTest$DemoApplication.ic" NAME="DemoApplication Coverage Results" MODIFIED="1646477814107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>excel下载</title>
+</head>
+<body>
+<input type="button" onclick="DownloadExcel()" value="download">
+<script src="jquery.min.js"></script>
+<script>
+    // 下载模板
+    function DownloadExcel() {
+        console.log("进入下载");
+        const  xhr = new XMLHttpRequest();
+        xhr.open("POST","http://localhost:8080/fxz/excel/download");
+        xhr.send();
+        xhr.responseType = 'blob'; //设置请求回来的数据为blob方式
+        xhr.onload = function() {
+            if (this.status === 200) {
+                // 数据在 this.response 保存
+                // 创建a链接 href链接地址 download为下载下来后文件的名称
+                const aa = document.createElement('a');
+                const url = URL.createObjectURL(this.response);
+                console.log(url)
+                aa.href = url;
+                aa.style.display = 'none'; //隐藏a标签 直接调用a标签的点击事件
+                document.body.appendChild(aa);
+                aa.click();
+                aa.remove();
+                URL.revokeObjectURL(url);
+                console.log("over")
+            }
+        }
+    }
+
+</script>
+</body>
+</html>
