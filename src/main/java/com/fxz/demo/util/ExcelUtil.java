@@ -43,7 +43,7 @@ public class ExcelUtil {
      */
     public static SXSSFWorkbook getWorkBook() {
         List<Student> students = new ArrayList<>();
-        for (int i = 0;i < 1000000; i++) {
+        for (int i = 0;i < 1010000; i++) {
             students.add(new Student(i+1, "fxz"+i, new Random().nextInt(100), "男"));
         }
         List<Map<String, Object>> mapList = students.parallelStream().map(model ->
@@ -54,6 +54,7 @@ public class ExcelUtil {
             map.put("tSex", model.getTSex());
             return map;
         }).collect(Collectors.toList());
+        students.clear();
         SXSSFWorkbook workbook = new SXSSFWorkbook();
         // 临时文件会被压缩temp files will be gzipped
         workbook.setCompressTempFiles(true);
@@ -68,16 +69,15 @@ public class ExcelUtil {
         int rowIndex = 1;
         int sheetIndex = 1;
         SXSSFSheet sheet = null;
-        for (Map<String,Object> rowMap: mapList) {
-            int currentIndex = mapList.indexOf(rowMap);
+        for (int i = 0; i < mapList.size(); i++) {
             SXSSFRow row;
-            if (currentIndex % PER_SHEET_ROW_COUNT == 0) {
+            if (i % PER_SHEET_ROW_COUNT == 0) {
                 sheet = workbook.createSheet("sheet_" + sheetIndex++);
                 row = sheet.createRow(0);
                 // 设置excel列名称
-                for (int i = 0; i < titles.length; i++) {
-                    SXSSFCell cell = row.createCell(i);
-                    cell.setCellValue(titles[i]);
+                for (int j = 0; j < titles.length; j++) {
+                    SXSSFCell cell = row.createCell(j);
+                    cell.setCellValue(titles[j]);
                     cell.setCellType(CellType.STRING);
                     cell.setCellStyle(cellStyle);
                 }
@@ -88,11 +88,11 @@ public class ExcelUtil {
             }
             row = sheet.createRow(rowIndex++);
             // 设置excel表格内容
-            for (int i = 0; i < columns.length; i++) {
-                row.createCell(i).setCellValue(String.valueOf(rowMap.get(columns[i])));
+            for (int j = 0; j < columns.length; j++) {
+                row.createCell(j).setCellValue(String.valueOf(mapList.get(i).getOrDefault(columns[j], "")));
             }
-            log.info(String.valueOf(rowIndex));
         }
+        mapList.clear();
         return workbook;
     }
 
