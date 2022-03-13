@@ -6,7 +6,7 @@ import java.io.File;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class ExcelInsertDemo {
+public class CollectionIndexOfTest {
     private static final String EXCEL_PATH = "";
 
 

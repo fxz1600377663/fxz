@@ -16,7 +16,6 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -70,12 +69,12 @@ public class ExcelService {
                     student.setAge(Integer.parseInt(cellList.get(columnMap.get("年龄"))));
                     student.setTSex(cellList.get(columnMap.get("性别")));
                     studentList.add(student);
-                    // 批量插入
-                    if (studentList.size() > 0 && studentList.size() % 1000 == 0) {
-                        studentService.batchInsertStudents(studentList);
-                    }
                 }
-                System.out.println("总行数为：" + totalRowCount + " 行号为：" + curRow + " 数据：" + cellList);
+                // 批量插入
+                if (studentList.size() == 1000) {
+                    studentService.batchInsertStudents(studentList);
+                }
+                System.out.println( "sheet页序号为: " + sheetIndex + " 总行数为：" + totalRowCount + " 行号为：" + curRow + " 数据：" + cellList);
             });
             if (studentList.size() > 0) {
                 studentService.batchInsertStudents(studentList);
